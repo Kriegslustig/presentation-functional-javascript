@@ -1,10 +1,11 @@
 Functional JavaScript
+	Why?
 	Definition of a function
 		Arrow functions
 		First class
 	Higher order functions
 	Recursion
 	Currying
-	Problems
-	Advantages
+	Mutability
+	User Interfaces
 
