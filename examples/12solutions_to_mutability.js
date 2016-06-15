@@ -1,3 +1,4 @@
+;[].immutable
 // There are many solutions to this problem in JavaScript. The nicest is probably [immutable.js](https://facebook.github.io/immutable-js/).
 const ourObject = Immutable.Map({ x: 1 })
 const getX =

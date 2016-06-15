@@ -1,3 +1,4 @@
+;[].currying
 // Here are our things again
 const things = [
   { color: 'blue', shape: 'sphere' },
@@ -19,5 +20,5 @@ const isColor = is('color')
 const isColorBlue = isColor('blue')
 
 // `isColorBlue` is a function accepting a single argument, `object` and returns a boolean value. We can now pass that function into a filter call and we'll get all blue elements back.
-things.filter(isBlue)
+things.filter(isColorBlue)
 

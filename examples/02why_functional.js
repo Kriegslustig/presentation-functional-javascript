@@ -1,0 +1,9 @@
+;[].why
+  ? [
+    'Others'
+  ]
+  : [
+    'DRYer',
+    'Readability'
+  ]
+

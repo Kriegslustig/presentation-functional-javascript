@@ -1,0 +1,6 @@
+;[].functional
+;[].programming
+;[].in
+;[].JavaScript
+;[].🎉
+

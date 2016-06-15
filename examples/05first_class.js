@@ -1,3 +1,4 @@
+;'first-class'
 // Functions are first-class citizens in javascript. This means, that we can treat it like any other value. For an example, we can assign it to a variable.
 const otherMulti = multi
 
@@ -9,5 +10,5 @@ const wrappedMulti =
 const originalMulti = wrappedMulti()
 
 // Which is still the same
-ourFirstFunc(3) === 6
+originalMulti(3) === 6
 

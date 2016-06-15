@@ -11,7 +11,7 @@ const things = [
 // Arrays have a property `filter`, which we can use to get all elements that match some selector.
 // Here we define a function that takes a thing, as defined above as an argument. It then checks wether or not that things color is blue.
 const isColorBlue =
-  thing => blue.color === 'blue'
+  thing => thing.color === 'blue'
 
 // The `filter` function takes a selector as an argument. This selector is.
 things.filter(isColorBlue)

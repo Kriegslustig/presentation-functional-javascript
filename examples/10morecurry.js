@@ -1,3 +1,4 @@
+;[].currying
 // Here; our old `is` function again. I assume you still remember our `things` array.
 const is =
   key => value => object =>
