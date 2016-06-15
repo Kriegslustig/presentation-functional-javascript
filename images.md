@@ -2,11 +2,11 @@
 
 ## Side-Effects
 
-![Side-Effects](https://xkcd.com/1312/)
+<img src="https://imgs.xkcd.com/comics/haskell.png" alt="Side-Effects" style="min-height:100vh;">
 
 ## Recursion
 
-![Recursion](https://imgs.xkcd.com/comics/functional.png)
+<img src="https://imgs.xkcd.com/comics/functional.png" alt="Recursion" style="min-height:100vh;">
 
 ## Source Code
 
