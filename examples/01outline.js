@@ -1,4 +1,5 @@
-[
+;[].outline
+;[
   'Why?',
   'Functions',
   'Mutability',
@@ -6,7 +7,7 @@
 
   'Recursion',
   'Curry',
-  'Combinators',
-  'Higher-order functions'
+  'Higher-order functions',
+  'Solutions to immutability'
 ]
 

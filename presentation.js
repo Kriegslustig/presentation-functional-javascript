@@ -14,7 +14,18 @@
 
 
 
-[
+
+
+
+
+
+
+
+
+
+
+;[].outline
+;[
   'Why?',
   'Functions',
   'Mutability',
@@ -22,9 +33,19 @@
 
   'Recursion',
   'Curry',
-  'Combinators',
-  'Higher-order functions'
+  'Higher-order functions',
+  'Solutions to immutability'
 ]
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -55,6 +76,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 ;[].definition
 ;'arrow functions'
 const multi =
@@ -72,11 +103,31 @@ multi(2) === 4
 
 
 
+
+
+
+
+
+
+
+
+
+
 ;[].definition
 ;'normal functions'
 function oldMulti (n) {
   return n * 2
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -108,7 +159,27 @@ originalMulti(3) === 6
 
 
 
+
+
+
+
+
+
+
+
+
+
 ;[].mutability
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -132,6 +203,16 @@ originalMulti(3) === 6
 
 
 
+
+
+
+
+
+
+
+
+
+
 ;[].recursion
 
 const firstEqual =
@@ -139,6 +220,16 @@ const firstEqual =
     array[0] || array[0].indexOf(substring) > -1
       ? array[0]
       : firstEqual(array.splice(1), substring)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -179,6 +270,16 @@ things.filter(isColorBlue)
 
 
 
+
+
+
+
+
+
+
+
+
+
 ;[].currying
 const is =
   key => value => object =>
@@ -188,6 +289,16 @@ const isShape = is('shape')
 const allCubes = things.filter(isShape('cube'))
 
 things.some(isShape('cylindre'))
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -212,6 +323,16 @@ const isColorBlue =
   thing => thing.color === 'blue'
 
 things.filter(isColorBlue)
+
+
+
+
+
+
+
+
+
+
 
 
 
